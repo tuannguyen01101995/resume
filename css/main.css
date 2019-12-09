@@ -317,41 +317,7 @@ nav {
 
 #skill {
   background-color: #323A44; }
-  #skill .progress-title {
-    font-size: 16px;
-    font-weight: 700;
-    color: #fff; }
-  #skill .progress {
-    height: 10px;
-    background: #fff;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    overflow: visible; }
-  #skill .progress .progress-bar {
-    position: relative;
-    -webkit-animation: animate-positive 4s;
-    animation: animate-positive 4s; }
-  #skill .progress .progress-bar:after {
-    content: "";
-    display: inline-block;
-    width: 9px;
-    background: #323A44;
-    position: absolute;
-    top: -10px;
-    bottom: -10px;
-    right: -1px;
-    z-index: 1;
-    -webkit-transform: rotate(35deg);
-    transform: rotate(35deg); }
-  #skill .progress .progress-value {
-    display: block;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    position: absolute;
-    top: -30px;
-    right: -25px; }
+  
 @-webkit-keyframes animate-positive {
   0% {
     width: 0; } }
@@ -363,7 +329,7 @@ nav {
     color: #fff;
     margin: 30px; }
   #skill .other-skill .text {
-    font-size: 20px;
+    font-size: 15px;
     color: #fff;
     font-weight: normal; }
     #skill .other-skill .text i {
