@@ -192,7 +192,7 @@ $(document).ready(function () {
         "content": content
       }
 
-      var service_id = "service_k1n397w";
+      var service_id = "service_15auzi6";
       var template_id = "template_5deLy2vG";
       emailjs.send(service_id, template_id, template_params).then(function (response) {
         swal({
