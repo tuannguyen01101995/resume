@@ -4,11 +4,11 @@ body {
 .active span {
   color: #F06000 !important; }
 
-.padding-section, #about, #skill, #education, #portfolio {
+.padding-section, #about, #skill, #education, #portfolio , #works {
   padding: 80px 0; }
 
-.header-title, #about .about-top h1, #skill h1, #education .edu-title h2, #portfolio .portfolio-title h2, #contact .contact-content .contact-title h2 {
-  font-size: 60px;
+.header-title, #about .about-top h1, #skill h1, #works .edu-title h2, #education .edu-title h2, #portfolio .portfolio-title h2, #contact .contact-content .contact-title h2 {
+  font-size: 40px;
   color: #dddfe0;
   font-weight: 200;
   line-height: 40px;
@@ -369,7 +369,28 @@ nav {
       margin-bottom: 10px; }
   #education .edu-content .card:nth-child(2) {
     background: #d34836 !important; }
-
+#works {
+  background: #323A44;
+  color: #fff; }
+  #works .edu-content .card {
+    background: #833ab4; }
+    #works .edu-content .card .card-header i {
+      font-size: 50px;
+      color: #fff;
+      font-weight: normal;
+      background-color: rgba(0, 0, 0, 0.1);
+      padding: 8px 10px;
+      margin-right: 10px;
+      border: 1px solid transparent;
+      border-radius: 5px; }
+    #works .edu-content .card .card-header h3 {
+      margin: 0; }
+    #works .edu-content .card .card-body h4 {
+      margin-bottom: 10px; }
+    #works .edu-content .card .card-body p {
+      margin-bottom: 10px; }
+    #works .edu-content .card:nth-child(2) {
+      background: #d34836 !important; }
 .bigImg3 {
   background: url("../images/img2.jpg");
   min-height: 600px;
